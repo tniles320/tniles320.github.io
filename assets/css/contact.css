@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to right, rgb(236, 250, 244), rgb(198, 231, 216), rgb(236, 250, 244));
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.btn-info {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 1.5rem;
+    justify-content: space-around;
+    padding: 5px 0 5px 0;
+    margin-bottom: 20px; 
+    width: 300px;
+    border: none;
+    box-shadow: rgb(236, 250, 244) 1px 1px 10px 10px;
+    background-color: rgb(198, 231, 216);
+    color: rgb(87, 83, 83);
+}
+
+.left-div {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.right-div {
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    #links {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .left-div,
+    .right-div {
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .btn-info {
+        width: 235px;
+    }
+
+    #links {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}

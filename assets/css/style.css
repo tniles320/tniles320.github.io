@@ -1,16 +1,12 @@
 body {
+    background-image: linear-gradient(to right, rgb(236, 250, 244), rgb(198, 231, 216), rgb(236, 250, 244));
+}
+
+main {
     max-width: 900px;
     margin: auto;
     padding: 10px;
 }
-
-/* #picture-container {
-    border: solid black 1px;
-}
-
-#about-container {
-    border: solid black 1px;
-}*/
 
 #profile-image {
     border-radius: 50%;
@@ -40,4 +36,12 @@ body {
     box-shadow: 1px 1px 6px 1px black;
     filter: brightness(90%);
     opacity: 90%;
+}
+
+@media only screen and (max-width: 770px) {
+
+    main {
+        max-width: 550px;
+    }
+
 }

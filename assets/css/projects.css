@@ -1,0 +1,93 @@
+body {
+    background-image: linear-gradient(to right, rgb(236, 250, 244), rgb(198, 231, 216), rgb(236, 250, 244));
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+#second-nav {
+    justify-content: center;
+}
+
+#healthapp-screenshot,
+#calorie-counter-screenshot,
+#weather-dashboard1-screenshot,
+#weather-dashboard2-screenshot,
+#day-scheduler1-screenshot,
+#day-scheduler2-screenshot {
+    width: 950px;
+    height: 450px;
+}
+
+.list-group-item {
+    background: none;
+}
+
+@media only screen and (max-width: 950px) {
+
+    main {
+        max-width: 810px;
+    }
+
+    #carouselExampleControls {
+        max-width: 807px;
+        max-height: 382px;
+        margin: auto;
+    }
+
+    #healthapp-screenshot,
+    #calorie-counter-screenshot,
+    #weather-dashboard1-screenshot,
+    #weather-dashboard2-screenshot,
+    #day-scheduler1-screenshot,
+    #day-scheduler2-screenshot {
+        width: 807px;
+        height: 382px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    #carouselExampleControls {
+        max-width: 712px;
+        max-height: 337px;
+    }
+
+    #healthapp-screenshot,
+    #calorie-counter-screenshot,
+    #weather-dashboard1-screenshot,
+    #weather-dashboard2-screenshot,
+    #day-scheduler1-screenshot,
+    #day-scheduler2-screenshot {
+        width: 712px;
+        height: 337px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    #second-nav {
+        justify-content: flex-start;
+    }
+
+    #carouselExampleControls {
+        max-width: 534px;
+        max-height: 252px;
+    }
+
+    #healthapp-screenshot,
+    #calorie-counter-screenshot,
+    #weather-dashboard1-screenshot,
+    #weather-dashboard2-screenshot,
+    #day-scheduler1-screenshot,
+    #day-scheduler2-screenshot {
+        width: 534px;
+        height: 252px;
+    }
+
+}
