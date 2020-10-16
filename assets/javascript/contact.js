@@ -1,3 +1,7 @@
+document.getElementById("email").addEventListener("click", function() {
+    window.open("mailto:tniles320@gmail.com");
+});
+
 document.getElementById("linkedin").addEventListener("click", function() {
     window.open("https://linkedin.com/in/taylorniles117", "_blank");
 });
