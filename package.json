@@ -1,0 +1,23 @@
+{
+  "name": "tniles320.github.io",
+  "version": "1.0.0",
+  "description": "Taylor Niles Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tniles320/tniles320.github.io.git"
+  },
+  "author": "Taylor Niles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tniles320/tniles320.github.io/issues"
+  },
+  "homepage": "https://github.com/tniles320/tniles320.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
