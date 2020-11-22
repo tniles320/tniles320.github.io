@@ -17,7 +17,8 @@ main {
 #weather-dashboard1-screenshot,
 #weather-dashboard2-screenshot,
 #day-scheduler1-screenshot,
-#day-scheduler2-screenshot {
+#day-scheduler2-screenshot,
+#bindrr-demo {
     width: 950px;
     height: 450px;
 }
@@ -43,7 +44,8 @@ main {
     #weather-dashboard1-screenshot,
     #weather-dashboard2-screenshot,
     #day-scheduler1-screenshot,
-    #day-scheduler2-screenshot {
+    #day-scheduler2-screenshot,
+    #bindrr-demo {
         width: 807px;
         height: 382px;
     }
@@ -62,7 +64,8 @@ main {
     #weather-dashboard1-screenshot,
     #weather-dashboard2-screenshot,
     #day-scheduler1-screenshot,
-    #day-scheduler2-screenshot {
+    #day-scheduler2-screenshot,
+    #bindrr-demo {
         width: 712px;
         height: 337px;
     }
@@ -85,7 +88,8 @@ main {
     #weather-dashboard1-screenshot,
     #weather-dashboard2-screenshot,
     #day-scheduler1-screenshot,
-    #day-scheduler2-screenshot {
+    #day-scheduler2-screenshot,
+    #bindrr-demo {
         width: 534px;
         height: 252px;
     }

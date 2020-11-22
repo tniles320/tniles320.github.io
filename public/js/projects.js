@@ -15,3 +15,9 @@ if(document.getElementById("day-scheduler-link") !== null){
         window.open("https://tniles320.github.io/day-scheduler", "_blank");
     });
 };
+
+if(document.getElementById("bindrr-link") !== null){
+    document.getElementById("bindrr-link").addEventListener("click", function() {
+        window.open("https://lit-wildwood-97501.herokuapp.com/", "_blank");
+    });
+};
