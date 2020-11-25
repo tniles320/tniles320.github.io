@@ -27,6 +27,19 @@ main {
     background: none;
 }
 
+#healthapp-img,
+#bindrr-img,
+#weather-dashboard,
+#day-scheduler {
+    height: 240px;
+    width: 400px;
+}
+
+.picture,
+.description {
+    padding: 40px 0 20px 0;
+}
+
 @media only screen and (max-width: 950px) {
 
     main {
@@ -50,6 +63,15 @@ main {
         height: 382px;
     }
 
+    #healthapp-img,
+    #bindrr-img,
+    #weather-dashboard,
+    #day-scheduler {
+        height: 180px;
+        width: 300px;
+        margin-top: 25px;
+    }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -68,6 +90,14 @@ main {
     #bindrr-demo {
         width: 712px;
         height: 337px;
+    }
+
+    #healthapp-img,
+    #bindrr-img,
+    #weather-dashboard,
+    #day-scheduler {
+        height: 150px;
+        width: 250px;
     }
 
 }
@@ -93,5 +123,21 @@ main {
         width: 534px;
         height: 252px;
     }
+
+    #healthapp-img,
+    #bindrr-img,
+    #weather-dashboard,
+    #day-scheduler {
+    height: 200px;
+    width: 300px;
+    }
+
+    .description {
+        padding: 40px 0 0 0;
+    }
+    .picture {
+    padding: 0 0 40px 0;
+    text-align: center;
+}
 
 }
