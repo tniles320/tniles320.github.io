@@ -2,6 +2,11 @@ body {
     background-image: linear-gradient(to right, rgb(236, 250, 244), rgb(198, 231, 216), rgb(236, 250, 244));
 }
 
+.proj-link:hover {
+    background-color: lightsalmon;
+    border-radius: 50%;
+}
+
 main {
     max-width: 900px;
     margin: auto;
