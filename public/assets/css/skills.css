@@ -1,9 +1,0 @@
-body {
-    background-image: linear-gradient(to right, rgb(236, 250, 244), rgb(198, 231, 216), rgb(236, 250, 244));
-}
-
-main {
-    max-width: 900px;
-    margin: auto;
-    padding: 10px;
-}

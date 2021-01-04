@@ -1,0 +1,9 @@
+#profile-image {
+    border-radius: 50%;
+    box-shadow: 0 0 2px 3px rgba(4, 0, 65, 0.3);
+    /* width: 545px;
+    height: 536px; */
+    width: 273px;
+    height: 268px;
+    padding: 10px;
+}

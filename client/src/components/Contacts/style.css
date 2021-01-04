@@ -1,0 +1,41 @@
+#links {
+    margin-top: 61px;
+    margin-bottom: 55px;
+    margin-right: 20px;
+}
+
+.link-icon {
+    font-size: 3rem;
+}
+
+.btn-info {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 1.5rem;
+    justify-content: space-around;
+    padding: 5px 0 5px 0;
+    margin-bottom: 20px; 
+    width: 300px;
+    border: none;
+    box-shadow: rgb(4, 0, 65) 1px 1px 10px 10px;
+    background-color: rgba(4, 0, 65, 0.5) !important;
+    color: rgb(211, 208, 240);
+}
+
+.btn-info:hover {
+    background-color: rgba(4, 0, 65) !important;
+}
+
+.btn-info:focus {
+    outline: none;
+}
+
+.left-div {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.right-div {
+    padding-left: 40px;
+}
