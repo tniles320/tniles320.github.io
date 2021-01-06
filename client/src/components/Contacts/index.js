@@ -13,7 +13,7 @@ function Contacts(props) {
             id="email"
             onClick={handleBtn}
           >
-            <span>tniles320@gmail.com</span>
+            <span className="link-text">tniles320@gmail.com</span>
             <i className="fa fa-envelope link-icon"></i>
           </button>
         </div>
@@ -25,7 +25,7 @@ function Contacts(props) {
             id="phone"
             onClick={handleBtn}
           >
-            <span>(909) 230-0325</span>
+            <span className="link-text">(909) 230-0325</span>
             <i className="fa fa-phone-square link-icon"></i>
           </button>
         </div>
@@ -39,7 +39,7 @@ function Contacts(props) {
             id="linkedin"
             onClick={handleBtn}
           >
-            <span>LinkedIn</span>
+            <span className="link-text">LinkedIn</span>
             <i className="fa fa-linkedin-square link-icon"></i>
           </button>
         </div>
@@ -51,7 +51,7 @@ function Contacts(props) {
             id="github"
             onClick={handleBtn}
           >
-            <span>GitHub</span>
+            <span className="link-text">GitHub</span>
             <i className="fa fa-github link-icon"></i>
           </button>
         </div>
@@ -65,7 +65,7 @@ function Contacts(props) {
             id="twitter"
             onClick={handleBtn}
           >
-            <span>Twitter</span>
+            <span className="link-text">Twitter</span>
             <i className="fa fa-twitter link-icon"></i>
           </button>
         </div>
@@ -77,7 +77,7 @@ function Contacts(props) {
             id="resume"
             onClick={handleBtn}
           >
-            <span>My Resume</span>
+            <span className="link-text">My Resume</span>
             <i className="fa fa-file-text link-icon"></i>
           </button>
         </div>

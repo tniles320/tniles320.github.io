@@ -39,3 +39,29 @@
 .right-div {
     padding-left: 40px;
 }
+
+@media only screen and (max-width: 576px) {
+
+    #links {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+    .link-icon {
+        font-size: 2rem;
+    }
+    
+    .btn-info {
+        height: 50px;
+        width: 250px;
+    }
+
+    .link-text {
+        font-size: .8rem;
+    }
+
+}

@@ -8,7 +8,7 @@
 
 #about-text {
     /* max-width: 500px; */
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .languages {
@@ -16,9 +16,23 @@
     border-radius: .25rem;
     background-color: rgb(70, 63, 109 0.8);
     height: 1.6rem;
-    padding: 0 3px 3px 3px;
+    padding: 0 3px 0px 3px;
     box-shadow: 1px 1px 4px black;
     color: white;
     margin-right: 5px;
     margin-left: 5px;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 576px) {
+
+    #about-text {
+        max-width: 400px;
+        font-size: 1rem;
+    }
+
+    .languages {
+        font-size: 1rem;
+    }
+
 }

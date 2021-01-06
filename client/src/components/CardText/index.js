@@ -4,8 +4,10 @@ import "./style.css";
 function CardText() {
   return (
     <div className="card-body">
-      <h2 className="card-title info">Taylor Niles</h2>
-      <p className="card-text info">Full-Stack Web Developer</p>
+      <h1 className="card-title info">Taylor Niles</h1>
+      <p className="card-text info" id="home-title">
+        Full-Stack Web Developer
+      </p>
       {/* <p className="card-text">
         <small className="text-muted">tniles320@gmail.com</small>
       </p>

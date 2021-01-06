@@ -48,7 +48,7 @@ function Projects() {
         "The Team generator allows a user quickly generate a website showcasing their team of employees",
       image: teamGenerator,
       github: "https://github.com/tniles320/team-generator",
-      link: "",
+      link: "https://github.com/tniles320/team-generator",
     },
     {
       title: "Fitness Tracker",

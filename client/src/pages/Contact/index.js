@@ -9,6 +9,9 @@ function Contact() {
       case "email":
         window.open("mailto:tniles320@gmail.com");
         break;
+      case "phone":
+        window.open("tel:+19092300325");
+        break;
       case "linkedin":
         window.open("https://linkedin.com/in/taylorniles117", "_blank");
         break;
