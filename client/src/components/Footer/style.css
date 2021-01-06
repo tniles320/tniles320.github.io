@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    padding-bottom: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    font-size: 2.2rem;
+    color: white;
+    padding: 0 15px 0 15px;
+}

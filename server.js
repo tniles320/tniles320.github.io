@@ -1,26 +1,21 @@
-// Requiring necessary npm packages
 const express = require("express");
 
-// built into node.js 
-const path  = require('path')
-
-// Setting up port and requiring models for syncing
-const PORT = process.env.PORT || 8080;
-
-// Creating express app and configuring middleware needed for authentication
+const routes = require("./routes");
 const app = express();
+const PORT = process.env.PORT || 3001;
+
+// Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static( path.resolve( __dirname + '/public')));
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
-// Requiring our routes
-require("./routes/html-routes.js")(app);
+// Add routes
+app.use(routes);
 
-// Syncing our database and logging a message to the user upon success
-app.listen(PORT, () => {
-    console.log(
-        "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-        PORT,
-        PORT
-    );
+// Start the API server
+app.listen(PORT, function () {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });

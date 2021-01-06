@@ -1,0 +1,54 @@
+.projects-container {
+    padding-top: 40px;
+    background-image: linear-gradient(to right, rgb(97, 94, 94, 0.0), rgb(97, 94, 94, 0.3), rgb(97, 94, 94, 0.0));
+    margin-bottom: 70px;
+}
+
+.proj-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.proj-text {
+    text-align: center;
+}
+
+.proj-title {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.proj-descript {
+    max-width: 500px;
+    color: rgb(180, 179, 187);
+    padding-bottom: 20px;
+}
+
+.proj-github {
+    color: rgb(255, 0, 255);
+}
+
+.proj-img {
+    width: 240px;
+    height: 150px;
+    border-radius: 45%;
+    box-shadow: rgb(4, 0, 65) 1px 1px 10px 10px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .proj-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proj-text {
+        padding: 0 10px 20px 10px;
+    }
+
+    .proj-descript {
+        color: rgb(223, 223, 226);
+    }
+
+}
