@@ -24,9 +24,7 @@
     "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d client/build"
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -37,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/tniles320/tniles320.github.io/issues"
   },
-  "homepage": "https://tniles320.github.io"
+  "homepage": "https://github.com/tniles320/tniles320.github.io/"
 }
