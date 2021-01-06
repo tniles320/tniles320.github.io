@@ -6,6 +6,15 @@
   "engines": {
     "node": "12.18.4"
   },
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.18.7"
+  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -18,16 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tniles320/tniles320.github.io"
+    "url": "git+https://github.com/tniles320/tniles320.github.io.git"
   },
   "author": "Taylor Niles",
   "license": "MIT",
-  "devDependencies": {
-    "concurrently": "^4.1.2",
-    "nodemon": "^1.18.7"
+  "bugs": {
+    "url": "https://github.com/tniles320/tniles320.github.io/issues"
   },
-  "dependencies": {
-    "express": "^4.16.3",
-    "if-env": "^1.0.4"
-  }
+  "homepage": "https://github.com/tniles320/tniles320.github.io#readme"
 }
