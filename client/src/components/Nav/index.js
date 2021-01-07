@@ -20,7 +20,6 @@ function Nav() {
       <div
         className="collapse navbar-collapse justify-content-center"
         id="navbarNavAltMarkup"
-        style={{ color: "white" }}
       >
         <div className="navbar-nav">
           <a className="nav-link" style={{ color: "white" }} href="/">
