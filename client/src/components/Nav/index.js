@@ -6,7 +6,6 @@ function Nav() {
   function openNav(event) {
     event.preventDefault();
     document.getElementById("mySidenav").style.width = "250px";
-    console.log("hello");
   }
 
   /* Set the width of the side navigation to 0 */
@@ -21,6 +20,7 @@ function Nav() {
       <div
         className="collapse navbar-collapse justify-content-center"
         id="navbarNavAltMarkup"
+        style={{ color: "white" }}
       >
         <div className="navbar-nav">
           <a className="nav-link" style={{ color: "white" }} href="/">

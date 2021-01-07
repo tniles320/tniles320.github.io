@@ -2,6 +2,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to right, rgb(97, 94, 94, 0.0), rgb(97, 94, 94, 0.3), rgb(97, 94, 94, 0.0));
     padding-bottom: 5px;
 }

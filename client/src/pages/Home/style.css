@@ -1,0 +1,6 @@
+#home-div {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    background-image: linear-gradient(to right, rgb(97, 94, 94, 0.0), rgb(97, 94, 94, 0.3), rgb(97, 94, 94, 0.0));
+}

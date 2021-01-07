@@ -13,8 +13,6 @@ My portfolio was created using React and is deployed with Heroku. It uses React 
 
 ## Table of Contents 
 
-* [Installation](#installation)
-
 * [License](#license)
 
 * [Contribution Guidelines](#contribution-guidelines)
@@ -22,14 +20,6 @@ My portfolio was created using React and is deployed with Heroku. It uses React 
 * [Tests](#tests)
 
 * [Questions](#questions)
-
-## Installation
-
-Run the following command to install dependencies:
-
-```
-npm install
-```
 
 ## License
 

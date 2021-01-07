@@ -1,7 +1,7 @@
 #links {
-    margin-top: 61px;
-    margin-bottom: 55px;
+    margin-top: 60px;
     margin-right: 20px;
+    min-height: 75vh;
 }
 
 .link-icon {
@@ -14,7 +14,7 @@
     border-radius: 1.5rem;
     justify-content: space-around;
     padding: 5px 0 5px 0;
-    margin-bottom: 20px; 
+    margin-top: 20px; 
     width: 300px;
     border: none;
     box-shadow: rgb(4, 0, 65) 1px 1px 10px 10px;
