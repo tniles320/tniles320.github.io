@@ -45,11 +45,11 @@
   }
 
   #open-nav {
-    background: none;
-    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    color: rgb(206, 204, 204);
     font-size: 1.8rem;
     visibility: hidden;
-    box-shadow: rgb(4, 0, 65, 0.2) 1px 1px 10px 10px;
+    box-shadow: rgb(4, 0, 65, 0.3) 1px 1px 10px 10px;
   }
   
   
