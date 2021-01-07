@@ -24,12 +24,7 @@ function SideNav(props) {
         </a>
       </div>
 
-      <button
-        id="open-nav"
-        className="btn"
-        onClick={openNav}
-        style={{ color: "white" }}
-      >
+      <button id="open-nav" className="btn btn-light" onClick={openNav}>
         &#9776;
       </button>
     </div>
