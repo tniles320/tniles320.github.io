@@ -17,17 +17,6 @@ function Nav() {
 
   return (
     <nav className="navbar navbar-expand-sm navbar-light">
-      {/* <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button> */}
       <SideNav openNav={openNav} closeNav={closeNav} />
       <div
         className="collapse navbar-collapse justify-content-center"
