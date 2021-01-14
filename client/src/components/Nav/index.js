@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SideNav from "../SideNav";
 import "./style.css";
 
@@ -22,18 +23,18 @@ function Nav() {
         id="navbarNavAltMarkup"
       >
         <div className="navbar-nav">
-          <a className="nav-link" style={{ color: "white" }} href="/">
+          <Link className="nav-link" style={{ color: "white" }} to="/">
             Home
-          </a>
-          <a className="nav-link" style={{ color: "white" }} href="/about">
+          </Link>
+          <Link className="nav-link" style={{ color: "white" }} to="/about">
             About
-          </a>
-          <a className="nav-link" style={{ color: "white" }} href="/projects">
+          </Link>
+          <Link className="nav-link" style={{ color: "white" }} to="/projects">
             Projects
-          </a>
-          <a className="nav-link" style={{ color: "white" }} href="/contact">
+          </Link>
+          <Link className="nav-link" style={{ color: "white" }} to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
