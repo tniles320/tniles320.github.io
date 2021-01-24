@@ -4,7 +4,7 @@ import bindrr from "../../img/bindrr-screenshot.jpg";
 import healthapp from "../../img/healthapp-screenshot.png";
 import weatherDashboard from "../../img/weather-dashboard1-screenshot.png";
 import employeeDirectory from "../../img/employee-directory.jpg";
-import teamGenerator from "../../img/team-generator-screenshot.jpg";
+import googleBooksSearch from "../../img/google-books-search-ss.png";
 import fitnessTracker from "../../img/fitness-tracker-ss.jpg";
 import "./style.css";
 
@@ -17,6 +17,14 @@ function Projects() {
       image: bindrr,
       github: "https://github.com/tniles320/bindrr",
       link: "https://lit-wildwood-97501.herokuapp.com/",
+    },
+    {
+      title: "Google Books Search",
+      description:
+        "Google Books Search is a React app that uses the Google Books API and MongoDB to display and save book information from a user query",
+      image: googleBooksSearch,
+      github: "https://github.com/tniles320/google-books-search",
+      link: "https://google-books-search-117.herokuapp.com/saved-books",
     },
     {
       title: "Healthapp",
@@ -41,14 +49,6 @@ function Projects() {
       image: employeeDirectory,
       github: "https://github.com/tniles320/employee-directory",
       link: "https://tniles320.github.io/employee-directory/",
-    },
-    {
-      title: "Team Generator",
-      description:
-        "The Team generator allows a user quickly generate a website showcasing their team of employees",
-      image: teamGenerator,
-      github: "https://github.com/tniles320/team-generator",
-      link: "https://github.com/tniles320/team-generator",
     },
     {
       title: "Fitness Tracker",
