@@ -24,7 +24,7 @@ function Projects() {
         "Google Books Search is a React app that uses the Google Books API and MongoDB to display and save book information from a user query",
       image: googleBooksSearch,
       github: "https://github.com/tniles320/google-books-search",
-      link: "https://google-books-search-117.herokuapp.com/saved-books",
+      link: "https://google-books-search-117.herokuapp.com/",
     },
     {
       title: "Healthapp",
