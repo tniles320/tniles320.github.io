@@ -9,7 +9,7 @@ My portfolio was created using React and is deployed with Heroku. It uses React 
 ### _Visit this website by clicking the link below_
 [Portfolio](https://taylor-niles.herokuapp.com)
 
-![portfolio screenshot](client/src/img/profile-screenshot.jpg)
+![portfolio screenshot](src/img/profile-screenshot.jpg)
 
 ## Table of Contents 
 
