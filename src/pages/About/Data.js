@@ -28,10 +28,7 @@ const Data = {
         Continued practice with CSS to better design websites without using CSS
         frameworks.
       </li>
-      <li>
-        Expand knowledge by learning the basics of a new coding language (Python
-        currently).
-      </li>
+      <li>Expand knowledge by learning the basics of a new coding language.</li>
       <li>
         Pursue professional certifications that will improve on or expand my
         career options <br />

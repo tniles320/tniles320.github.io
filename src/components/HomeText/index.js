@@ -6,8 +6,8 @@ function HomeText() {
     <div className="card-body home-text">
       <h3 className="card-title">A little about me</h3>
       <p className="card-text" id="about-text">
-        I am a full-stack web developer with extensive experience working with
-        and managing teams. <br />I have experience with the following:
+        I am a Software Engineer currently working on freelance projects <br />I
+        have experience with the following:
       </p>
       <div className="row no-gutters d-flex justify-content-around">
         <p className="languages">HTML</p>

@@ -6,7 +6,7 @@ function CardText() {
     <div className="card-body">
       <h1 className="card-title info">Taylor Niles</h1>
       <p className="card-text info" id="home-title">
-        Full-Stack Web Developer
+        Software Engineer
       </p>
       {/* <p className="card-text">
         <small className="text-muted">tniles320@gmail.com</small>

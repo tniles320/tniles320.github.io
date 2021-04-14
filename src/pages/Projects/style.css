@@ -32,8 +32,13 @@
 .proj-img {
     width: 320px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 80px;
     box-shadow: rgb(4, 0, 65) 1px 1px 10px 10px;
+}
+
+.proj-img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 950px) {
