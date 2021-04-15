@@ -23,7 +23,7 @@ function Contact() {
         break;
       case "resume":
         window.open(
-          "https://docs.google.com/document/d/1IMkKFe_mVEZZgKiZ6yojyeOlU78mSkzcQ3b-O7RSP28/edit?usp=sharing",
+          "https://docs.google.com/document/d/1o3z0H592QeVFBCJdsyDakAH0NhoqDuOPa8a0nrbu8Hc/edit?usp=sharing",
           "_blank"
         );
         break;
