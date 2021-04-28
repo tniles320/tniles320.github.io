@@ -4,9 +4,9 @@ import ProjectsDescript from "../ProjectsDescript";
 
 function ProjectsComponent(props) {
   const { ProjectsList } = props;
-  return ProjectsList.map((project) => {
+  return ProjectsList.map((project, index) => {
     return (
-      <div className="proj-container">
+      <div className="proj-container" key={index}>
         <ProjectsDescript
           title={project.title}
           description={project.description}

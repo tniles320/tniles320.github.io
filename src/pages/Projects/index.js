@@ -5,11 +5,19 @@ import healthapp from "../../img/healthapp-screenshot.png";
 import weatherDashboard from "../../img/weather-dashboard1-screenshot.png";
 import employeeDirectory from "../../img/employee-directory.jpg";
 import googleBooksSearch from "../../img/google-books-search-ss.png";
-import fitnessTracker from "../../img/fitness-tracker-ss.jpg";
+import foothillFitness from "../../img/foothillfitness-ss.png";
 import "./style.css";
 
 function Projects() {
   const ProjectsList = [
+    {
+      title: "Foothill Fitness",
+      description:
+        "A React app that uses Node, Express, and MongoDB for back-end functionality. The site features admin pages, protected by Passport authentication, that allow an admin to store and update data.",
+      image: foothillFitness,
+      github: "https://github.com/tniles320/foothillfitness",
+      link: "https://foothillfitness.com/",
+    },
     {
       title: "Bindrr",
       description:
@@ -49,14 +57,6 @@ function Projects() {
       image: employeeDirectory,
       github: "https://github.com/tniles320/employee-directory",
       link: "https://tniles320.github.io/employee-directory/",
-    },
-    {
-      title: "Fitness Tracker",
-      description:
-        "The fitness tracker allows a user to keep track of workouts by adding exercises performed",
-      image: fitnessTracker,
-      github: "https://github.com/tniles320/fitness-tracker",
-      link: "https://fitness-tracker117.herokuapp.com/",
     },
   ];
   return (
